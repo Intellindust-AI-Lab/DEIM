@@ -22,7 +22,7 @@ no_aug_epoch: 0
 
 HGNetv2:
   pretrained: True
-  local_model_dir: ../RT-DETR-main/D-FINE/weight/hgnetv2/
+  local_model_dir: ./weight/hgnetv2/
 
 HybridEncoder:
   in_channels: [512, 1024, 2048]
