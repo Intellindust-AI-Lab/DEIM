@@ -73,9 +73,7 @@ class PadToSize(T.Pad):
     
     # Compatibility with torchvision>0.20.0
     def transform(self, inpt: Any, params: Dict[str, Any]) -> Any:
-        fill = self._fill[type(inpt)]
-        padding = params['padding']
-        return F.pad(inpt, padding=padding, fill=fill, padding_mode=self.padding_mode)  # type: ignore[arg-type]
+        return self._transform(inpt, params)
 
     def __call__(self, *inputs: Any) -> Any:
         outputs = super().forward(*inputs)
