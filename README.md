@@ -25,6 +25,10 @@
         <img alt="Contact Us" src="https://img.shields.io/badge/Contact-Email-yellow">
     </a>
 </p>
+
+<p align="center" style="font-size: 2.0em; font-weight: bold;">
+    🎉 <strong> <a href="https://intellindust-ai-lab.github.io/projects/EdgeCrafter/" style="color: #d9534f; text-decoration: none;">EdgeCrafter</a> is released with SOTA performance on detection, pose estimation as well as instance segmentation.</strong>🎉
+</p>
 <p align="center" style="font-size: 2.0em; font-weight: bold;">
     🎉 <strong>We’re excited to share <a href="https://intellindust-ai-lab.github.io/projects/DEIMv2/" style="color: #d9534f; text-decoration: none;">DEIMv2</a> </strong>🎉
 </p>
